@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="31.897">
+ <testsuite name="workspace-project App" timestamp="2020-05-07T15:10:35" hostname="localhost" time="31.897" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="workspace-project App" name="Application open" time="19.138">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, app-root .content span)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, app-root .content span)
+    at C:\Users\Arun\Desktop\Parthi\API\node_modules\protractor\built\element.js:814:27
+    at ManagedPromise.invokeCallback_ (C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\promise.js:2927:27
+    at C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)Error: 
+    at ElementArrayFinder.applyAction_ (C:\Users\Arun\Desktop\Parthi\API\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.<computed> [as getText] (C:\Users\Arun\Desktop\Parthi\API\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.<computed> [as getText] (C:\Users\Arun\Desktop\Parthi\API\node_modules\protractor\built\element.js:831:22)
+    at AppPage.getTitleText (C:\Users\Arun\Desktop\Parthi\API\e2e\src\Rahulshetty\page.ts:86:54)
+    at C:\Users\Arun\Desktop\Parthi\API\e2e\src\Rahulshetty\spec.ts:14:23
+    at step (C:\Users\Arun\Desktop\Parthi\API\node_modules\tslib\tslib.js:139:27)
+    at Object.next (C:\Users\Arun\Desktop\Parthi\API\node_modules\tslib\tslib.js:120:57)
+    at fulfilled (C:\Users\Arun\Desktop\Parthi\API\node_modules\tslib\tslib.js:110:62)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+From: Task: Run it("Application open") in control flow
+    at UserContext.<anonymous> (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\Arun\Desktop\Parthi\API\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at C:\Users\Arun\Desktop\Parthi\API\node_modules\selenium-webdriver\lib\promise.js:2599:53
+From asynchronous test: 
+Error: 
+    at Suite.<anonymous> (C:\Users\Arun\Desktop\Parthi\API\e2e\src\Rahulshetty\spec.ts:11:3)
+    at addSpecsToSuite (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\Users\Arun\Desktop\Parthi\API\e2e\src\Rahulshetty\spec.ts:4:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Module.m._compile (C:\Users\Arun\Desktop\Parthi\API\node_modules\ts-node\src\index.ts:473:23)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Arun\Desktop\Parthi\API\node_modules\ts-node\src\index.ts:476:12)]]>
+   </failure>
+  </testcase>
+  <testcase classname="workspace-project App" name="Radio button selection validation" time="12.718" />
+ </testsuite>
+</testsuites>

@@ -1,0 +1,50 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1588843567503' stop='1588843624953'>
+    <name>workspace-project App</name>
+    <title>workspace-project App</title>
+    <test-cases>
+        <test-case start='1588843567504' status='undefined'>
+            <name>Application open</name>
+            <title>Application open</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1588843567504' status='failed' stop='1588843604741'>
+            <name>Application open</name>
+            <title>Application open</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='af56c98d-be94-4ea1-8883-38a7f00a0c66-attachment.png' type='image/png' size='49904'/>
+            </attachments>
+            <failure>
+                <message>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.</message>
+                <stack-trace>Error: Timeout - Async callback was not invoked within timeout specified by jasmine.DEFAULT_TIMEOUT_INTERVAL.
+                    at Timeout._onTimeout (C:\Users\Arun\Desktop\Parthi\API\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4281:23)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1588843604742' status='undefined'>
+            <name>Radio button selection validation</name>
+            <title>Radio button selection validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1588843604742' status='passed' stop='1588843624187'>
+            <name>Radio button selection validation</name>
+            <title>Radio button selection validation</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='7fd43486-fb7a-4381-b1e8-8d8a3d0e4936-attachment.png' type='image/png' size='51139'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
